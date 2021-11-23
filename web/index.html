@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F1M2js</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="kopje"> museum online javaScript</h1>
+    <p id="Groen"> Maak groen</p>
+    <p id="Roze"> Maak Roze</p>
+    <p id="Geel"> Maak Geel</p>
+    <p id="Blauw"> Maak Blauw</p>
+    <p id="Oranje"> Maak Oranje</p>
+    <p id="Grijs"> Maak Grijs</p>
+    <p id="Paars"> Maak Paars</p>
+    <p id="Zwart"> Maak Zwart</p>
+    
+    <script> 
+        
+        const Groen = document.getElementById("Groen");
+        const Roze = document.getElementById("Roze");
+        const Geel = document.getElementById("Geel");
+        const Blauw = document.getElementById("Blauw");
+        const Oranje = document.getElementById("Oranje");
+        const Grijs = document.getElementById("Grijs");  
+        const Paars = document.getElementById("Paars");
+        const Zwart = document.getElementById("Zwart");
+
+
+
+        
+        Groen.addEventListener('click', uitvoerVeranderGroen);
+        Roze.addEventListener('click',veranderRoze);
+        Geel.addEventListener('click', veranderGeel); 
+        Blauw.addEventListener('click', veranderBlauw); 
+        Oranje.addEventListener('click', veranderOranje);
+        Grijs.addEventListener('click', veranderGrijs);
+        Paars.addEventListener('click', veranderPaars);
+        Zwart.addEventListener('click', veranderZwart);   
+        
+
+
+        
+
+        function uitvoerVeranderGroen()
+        {
+            document.body.style.backgroundColor = "green";
+            document.body.style.color = "black";
+        }
+
+        function veranderRoze()
+        {
+            document.body.style.backgroundColor = "pink";
+            document.body.style.color = "white";
+        }
+
+        function veranderGeel()
+        {
+            document.body.style.backgroundColor = "yellow";
+            document.body.style.color = "black";
+        }
+
+        function veranderBlauw()
+        {
+            document.body.style.backgroundColor = "blue";
+            document.body.style.color = "white";
+        }
+
+        function veranderOranje()
+        {
+            document.body.style.backgroundColor = "Orange";
+            document.body.style.color = "black";
+        }
+
+        function veranderGrijs()
+        {
+            document.body.style.backgroundColor = "grey";
+            document.body.style.color = "white";
+        }
+
+        function veranderPaars()
+        {
+            document.body.style.backgroundColor = "purple";
+            document.body.style.color = "black";
+        }
+
+        function veranderZwart()
+        {
+            document.body.style.backgroundColor = "black";
+            document.body.style.color = "white";
+        }
+
+
+
+
+
+
+
+    </script>
+
+</body>
+</html>
