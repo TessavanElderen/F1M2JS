@@ -9,7 +9,7 @@
 </head>
 <body>
     <h1 id="kopje"> museum online javaScript</h1>
-    <p id="Groen"> Maak groen</p>
+    <p id="Groen"> Maak Groen</p>
     <p id="Roze"> Maak Roze</p>
     <p id="Geel"> Maak Geel</p>
     <p id="Blauw"> Maak Blauw</p>
@@ -29,9 +29,6 @@
         const Paars = document.getElementById("Paars");
         const Zwart = document.getElementById("Zwart");
 
-
-
-        
         Groen.addEventListener('click', uitvoerVeranderGroen);
         Roze.addEventListener('click',veranderRoze);
         Geel.addEventListener('click', veranderGeel); 
@@ -42,64 +39,62 @@
         Zwart.addEventListener('click', veranderZwart);   
         
 
-
-        
-
         function uitvoerVeranderGroen()
         {
             document.body.style.backgroundColor = "green";
             document.body.style.color = "black";
+            document.getElementById('sound1').play(); 
         }
 
         function veranderRoze()
         {
             document.body.style.backgroundColor = "pink";
             document.body.style.color = "white";
+            document.getElementById('sound1').play(); 
         }
 
         function veranderGeel()
         {
             document.body.style.backgroundColor = "yellow";
             document.body.style.color = "black";
+            document.getElementById('sound1').play(); 
         }
 
         function veranderBlauw()
         {
             document.body.style.backgroundColor = "blue";
             document.body.style.color = "white";
+            document.getElementById('sound1').play(); 
         }
 
         function veranderOranje()
         {
             document.body.style.backgroundColor = "Orange";
             document.body.style.color = "black";
+            document.getElementById('sound1').play(); 
         }
 
         function veranderGrijs()
         {
             document.body.style.backgroundColor = "grey";
             document.body.style.color = "white";
+            document.getElementById('sound1').play(); 
         }
 
         function veranderPaars()
         {
             document.body.style.backgroundColor = "purple";
             document.body.style.color = "black";
+            document.getElementById('sound1').play(); 
         }
 
         function veranderZwart()
         {
             document.body.style.backgroundColor = "black";
             document.body.style.color = "white";
+            document.getElementById('sound1').play(); 
         }
-
-
-
-
-
-
-
     </script>
-
+        <audio id="sound1" src="Click sound 6.wav" preload="auto"></audio>
 </body>
 </html>
