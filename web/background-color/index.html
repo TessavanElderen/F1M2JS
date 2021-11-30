@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>F1M2js</title>
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-    <h1 id="kopje"> museum online javaScript</h1>
+    <h1 id="kopje"> Museum online javaScript</h1>
+    <h2 id="kopje2"> Welkom. Probeer een aantal dingen en ontdek.</h2>
     <p id="Groen"> Maak Groen</p>
     <p id="Roze"> Maak Roze</p>
     <p id="Geel"> Maak Geel</p>
@@ -17,9 +19,10 @@
     <p id="Grijs"> Maak Grijs</p>
     <p id="Paars"> Maak Paars</p>
     <p id="Zwart"> Maak Zwart</p>
+    <p id="play"> Wanna play a game?</p>
     
     <script> 
-        
+    
         const Groen = document.getElementById("Groen");
         const Roze = document.getElementById("Roze");
         const Geel = document.getElementById("Geel");
@@ -28,6 +31,8 @@
         const Grijs = document.getElementById("Grijs");  
         const Paars = document.getElementById("Paars");
         const Zwart = document.getElementById("Zwart");
+        const play = document.getElementById("play")
+        
 
         Groen.addEventListener('click', uitvoerVeranderGroen);
         Roze.addEventListener('click',veranderRoze);
@@ -36,9 +41,11 @@
         Oranje.addEventListener('click', veranderOranje);
         Grijs.addEventListener('click', veranderGrijs);
         Paars.addEventListener('click', veranderPaars);
-        Zwart.addEventListener('click', veranderZwart);   
+        Zwart.addEventListener('click', veranderZwart);
+        play.addEventListener('click', gameplay); 
+           
         
-
+        
         function uitvoerVeranderGroen()
         {
             document.body.style.backgroundColor = "green";
@@ -92,9 +99,22 @@
         {
             document.body.style.backgroundColor = "black";
             document.body.style.color = "white";
-            document.getElementById('sound1').play(); 
+            document.getElementById('sound1').play();
+
         }
+
+        function gameplay()
+        {
+            document.getElementById('sound2').play();
+            
+        }
+
     </script>
+
+
         <audio id="sound1" src="Click sound 6.wav" preload="auto"></audio>
+        <audio id="sound2" src= "Alien No.wav" preload="auto"></audio>
+
+
 </body>
 </html>
