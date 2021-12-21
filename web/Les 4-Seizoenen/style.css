@@ -1,0 +1,37 @@
+#container{
+    background-color: lightblue;
+    width: 700px;
+    margin: 100px auto auto auto;
+}
+
+
+#myTitle{
+    font-size: 50px;
+}
+
+#myImg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h2{
+    text-align: center;
+}
+
+button{
+    height: 50px;
+    border: 2px solid green; 
+    cursor: pointer;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
