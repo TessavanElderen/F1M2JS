@@ -2,13 +2,13 @@
 ## javaScript
 
 ##### De opdracht Background color.
-[Live view](http://127.0.0.1:5500/web/Les%201-background-color/index.html) 
+[Live view](https://33944.hosts1.ma-cloud.nl/f1m2js/Les%201-background-color/) 
 
 ##### De opdracht Boodschappen sortereren.
-[Live view](http://127.0.0.1:5500/web/Les%202-boodschappen/index.html)
+[Live view](https://33944.hosts1.ma-cloud.nl/f1m2js/Les%202-boodschappen/)
 
 ##### De opdracht Tentoonstelling.
-[Live view](http://127.0.0.1:5500/web/Les%203-Werken%20met%20een%20array/werkenMetArrays.html)
+[Live view](https://33944.hosts1.ma-cloud.nl/f1m2js/Les%203-Werken%20met%20een%20array/)
 
 ##### De opdracht Seizoenen.
-[Live view](http://127.0.0.1:5500/web/Les%204-Seizoenen/index.html) 
+[Live view](https://33944.hosts1.ma-cloud.nl/f1m2js/Les%204-Seizoenen/) 
